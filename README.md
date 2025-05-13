@@ -35,10 +35,9 @@
   <img src="https://em-content.zobj.net/source/apple/354/love-letter_1f48c.png" class="envelope" onclick="showMessage()">
 
   <div id="message" class="message-box">
-    Çok şey istemiyorum, tek yapmak istediğim elini tutmak, sana sarılabilmek.
-    Gerçekten sevmek isteyen mesafelere rağmen sever birtanem. İyi ki hayatımdasın.
-    Senin gibi birini bulduğum için çok şanslıyım. Seninle gelecek istiyorum...
-    (Mektubun tam metnini buraya yazabilirsin.)
+    sözlüm seni çok seviyorum çok özledim elini tutmayı sana sarılmayı kokunu çok özledim
+    bana ne zaman ihtiyacın olursa ben burdayım aramızda mesafeler olabilir ama biz bunları aşarız
+    sende biliyorsun. bazen kavga da etsek kötü de davransan hep yanındayım beni hiç unutma ne yaparsan yap ben her zaman yanındayım senı bir gün bile yalnız bırakmam sende bende hiç gitme olur mu sevgilim...
   </div>
 
   <script>
