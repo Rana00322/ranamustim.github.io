@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Sana Mektubum</title>
+  <style>
+    body {
+      background: #fff0f5;
+      font-family: 'Segoe UI', sans-serif;
+      text-align: center;
+      padding: 50px;
+    }
+    .envelope {
+      width: 150px;
+      cursor: pointer;
+      transition: transform 0.3s ease;
+    }
+    .envelope:hover {
+      transform: scale(1.1);
+    }
+    .message-box {
+      display: none;
+      background: #fff;
+      padding: 25px;
+      margin-top: 30px;
+      border: 2px dashed #e91e63;
+      border-radius: 20px;
+      width: 80%;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+      white-space: pre-line;
+      font-size: 18px;
+      color: #333;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #e91e63;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Sevgilim Sana Bir Mektubum Var</h2>
+
+  <img src="https://em-content.zobj.net/source/apple/354/love-letter_1f48c.png" alt="Kalpli Mektup" class="envelope" onclick="showMessage()">
+
+  <div id="message" class="message-box">
+    sözlüm seni çok seviyorum çok özledim elini tutmayı sana sarılmayı kokunu çok özledim.
+    bana ne zaman ihtiyacın olursa ben burdayım, aramızda mesafeler olabilir ama biz bunları aşarız, sen de biliyorsun.
+    bazen kavga da etsek, kötü de davransan hep yanındayım, beni hiç unutma. 
+    ne yaparsan yap ben her zaman yanındayım, seni bir gün bile yalnız bırakmam.
+    sen de, ben de hiç gitme olur mu sevgilim...
+  </div>
+
+  <audio id="bgMusic" src="https://limewire.com/d/Ndaz3#JFQ2rI4VC3"></audio>
+
+  <script>
+    function showMessage() {
+      document.getElementById("message").style.display = "block";
+      document.getElementById("bgMusic").play();
+    }
+  </script>
+
+</body>
+</html>
